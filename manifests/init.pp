@@ -2,6 +2,6 @@
 
 class testuser {
 	user { 'test' :
-		enable => present,
+		ensure => present,
 	}
 }
